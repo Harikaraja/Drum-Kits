@@ -1,0 +1,72 @@
+body {
+    background-image: url('img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.elements {
+    display: grid;
+    grid-template-rows: repeat(1, 210px);
+    grid-template-columns: repeat(5, 200px);
+    grid-gap: 15px;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 16%;
+    font-family: cursive;
+}
+
+.pehlatag {
+    color: rgb(242, 89, 18);
+    font-size: 50px;
+    text-align: center;
+}
+
+#first {
+    background-image: url('img2.jpg');
+    width: "200px";
+    height: "210px";
+    border: 2px solid rgb(244, 13, 90);
+    border-radius: 10px;
+    margin: 10px;
+}
+#second {
+    background-image: url('img3.jpg');
+    width: "200px";
+    height: "210px";
+    border: 2px solid rgb(244, 13, 90);
+    border-radius: 10px;
+    margin: 10px;
+}
+#third {
+    background-image: url('img4.jpg');
+    width: "200px";
+    height: "210px";
+    border: 2px solid rgb(244, 13, 90);
+    border-radius: 10px;
+    margin: 10px;
+}
+#forth {
+    background-image: url('img5.jpg');
+    width: "200px";
+    height: "210px";
+    border: 2px solid rgb(244, 13, 90);
+    border-radius: 10px;
+    margin: 10px;
+}
+#fifth {
+    background-image: url('img6.jpg');
+    width: "200px";
+    height: "210px";
+    border: 2px solid rgb(244, 13, 90);
+    border-radius: 10px;
+    margin: 10px;
+}
+.all a {
+    text-decoration: none;
+    color: brown;
+    font-size: 40px;
+    margin: 30%;
+    cursor: default;
+    font-family: cursive;
+}
